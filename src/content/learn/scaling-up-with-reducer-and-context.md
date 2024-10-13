@@ -215,7 +215,9 @@ ul, li { margin: 0; padding: 0; }
 <TaskList tasks={tasks} dispatch={dispatch} />
 ```js
 <TaskList
-  tasks={tasks} onChangeTask={handleChangeTask} onDeleteTask={handleDeleteTask}
+  tasks={tasks}
+  onChangeTask={handleChangeTask}
+  onDeleteTask={handleDeleteTask}
 />
 ```
 
